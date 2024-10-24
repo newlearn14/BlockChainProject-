@@ -1,0 +1,38 @@
+<div>
+    <Head>
+      <title>Buy Ayush a Coffee!</title>
+      <meta name="description" />
+      <link rel="icon" href="../favicon.ico" />
+    </Head>
+
+      <h1>
+        Buy Ayush a Coffee!
+      </h1>
+
+        <div>
+          <form>
+            <div>
+                Name
+              <br />
+            </div>
+            <br />
+            <div>
+                Send Ayush a message
+              <br />
+            </div>
+            <div>
+              <button
+                type="button"
+                onClick = buyCoffee 
+              >
+                Send 1 Coffee for 0.001ETH
+              </button>
+            </div>
+          </form>
+        </div>
+      ) : (
+        <button onClick={connectWallet}> Connect your wallet </button>
+      )}
+  </div>
+)
+}

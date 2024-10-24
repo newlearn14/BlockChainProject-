@@ -1,0 +1,28 @@
+{
+  "name": "defi-buy-me-a-coffee-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayush-3516/DeFi-Buy-Me-A-Coffee-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayush-3516/DeFi-Buy-Me-A-Coffee-App/issues"
+  },
+  "homepage": "https://github.com/ayush-3516/DeFi-Buy-Me-A-Coffee-App#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "hardhat": "^2.10.1"
+  },
+  "dependencies": {
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "dotenv": "^16.0.1"
+  }
+}
